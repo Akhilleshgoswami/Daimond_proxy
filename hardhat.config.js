@@ -22,7 +22,7 @@ const INFURA_API_KEY = "KEY";
 // To export your private key from Metamask, open Metamask and
 // go to Account Details > Export Private Key
 // Beware: NEVER put real Ether into testing accounts
-const SEPOLIA_PRIVATE_KEY = "ba7a44643aa5c0e1fd70226c0f67cbce09358d92db9a7093af35104b41bad356";
+const SEPOLIA_PRIVATE_KEY = "";
 // You need to export an object to set up your config
 // Go to https://hardhat.org/config/ to learn more
 
@@ -43,14 +43,14 @@ module.exports = {
       
         forking:{
   
-          url:"https://polygon-mumbai.infura.io/v3/6444666b26d5471aba31c77934f79464",
+          url:"https://polygon-mumbai.infura.io/v3/",
         
         // url:"https://optimism-goerli.infura.io/v3/2dff452478174fdf8035dc20eadb5667"
         }
       },
      
     sepolia: {
-      url: `https://polygon-mumbai.infura.io/v3/6444666b26d5471aba31c77934f79464`,
+      url: `https://polygon-mumbai.infura.io/v3/`,
       accounts: [SEPOLIA_PRIVATE_KEY],
     },},
   etherscan: {
